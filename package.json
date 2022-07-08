@@ -4,7 +4,7 @@
   "description": "## So why would we want to store our data in an in-memory database? ### CAHING OUR DATA!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "dependencies": {
     "dotenv": "^16.0.1",
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
